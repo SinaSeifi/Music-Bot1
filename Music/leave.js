@@ -1,5 +1,6 @@
 module.exports = { 
-    name: "leave", 
+    name: "leave",
+  aliases: ["dc"],
     description: "Leave the current channel", 
     execute(message) {
          const { channel } = message.member.voice; 
